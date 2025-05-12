@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "ShiftLink",
+    "slug": "ShiftLink",
+    "icon": "./assets/images/splash-screen-dark.png",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.anonymous.ShiftLink",
+      "icon": "./assets/images/adaptive-icon.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#051C2C"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.anonymous.ShiftLink",
+      "icon": {
+        "light": "./assets/images/ios-light.png",
+        "dark": "./assets/images/ios-dark.png",
+        "ios-tinted": "./assets/images/ios-tinted.png"
+      }
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#ffffff",
+          "image": "./assets/images/splash-screen-light.png",
+          "dark": {
+            "image": "./assets/images/splash-screen-dark.png",
+            "backgroundColor": "#051C2C"
+          },
+          "imageWidth": 200,
+          "resizeMode": "contain"
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Inter-Black.otf",
+            "./assets/fonts/Inter-BlackItalic.otf",
+            "./assets/fonts/Inter-Bold.otf",
+            "./assets/fonts/Inter-BoldItalic.otf",
+            "./assets/fonts/Inter-ExtraBold.otf",
+            "./assets/fonts/Inter-ExtraBoldItalic.otf",
+            "./assets/fonts/Inter-ExtraLight.otf",
+            "./assets/fonts/Inter-ExtraLightItalic.otf",
+            "./assets/fonts/Inter-Italic.otf",
+            "./assets/fonts/Inter-Light.otf",
+            "./assets/fonts/Inter-LightItalic.otf",
+            "./assets/fonts/Inter-Medium.otf",
+            "./assets/fonts/Inter-MediumItalic.otf",
+            "./assets/fonts/Inter-Regular.otf",
+            "./assets/fonts/Inter-SemiBold.otf",
+            "./assets/fonts/Inter-SemiBoldItalic.otf",
+            "./assets/fonts/Inter-Thin.otf",
+            "./assets/fonts/Inter-ThinItalic.otf"
+          ]
+        }
+      ]
+    ]
+  }
+}
